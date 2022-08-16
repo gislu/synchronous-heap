@@ -1,0 +1,32 @@
+{
+  "name": "synchronous-heap",
+  "version": "1.0.0",
+  "description": "A sorting heap storing asynchronous data synchronously by the order of calling time",
+  "main": "dist/synchronous-heap.js",
+  "module": "dist/synchronous-heap.mjs",
+  "typings": "dist/synchronous-heap.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gislu/synchronous-heap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gislu/synchronous-heap/issues"
+  },
+  "homepage": "https://github.com/gislu/synchronous-heap#readme",
+  "devDependencies": {
+    "esbuild": "^0.15.3",
+    "rollup": "^2.78.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-esbuild": "^4.9.3",
+    "typescript": "^4.7.4"
+  }
+}
