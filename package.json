@@ -1,6 +1,6 @@
 {
   "name": "synchronous-heap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sorting heap storing asynchronous data synchronously by the order of calling time",
   "main": "dist/synchronous-heap.js",
   "module": "dist/synchronous-heap.mjs",

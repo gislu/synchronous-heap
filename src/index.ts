@@ -1,5 +1,4 @@
-import sorting_heap from './sorting_heap';
-
+import { SynchronousHeap } from './synchronous-heap';
 export default {
-	sorting_heap: sorting_heap,
+	SynchronousHeap: SynchronousHeap
 }

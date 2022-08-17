@@ -1,5 +1,8 @@
+declare class SYNCHRONOUSHEAP {
+}
+
 declare const _default: {
-    sorting_heap: (value: number) => boolean;
+    SynchronousHeap: typeof SYNCHRONOUSHEAP;
 };
 
 export { _default as default };
