@@ -1,8 +1,3 @@
-/**
- * @license MIT
- * @copyright 2020 Eyas Ranjous <eyas.ranjous@gmail.com>
- */
-
  import { Heap } from './heap';
 
  const getMaxCompare = (getCompareValue : any) => (a : any, b : any) => {

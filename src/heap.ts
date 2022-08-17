@@ -1,9 +1,3 @@
-/**
- * @license MIT
- * @copyright 2020 Eyas Ranjous <eyas.ranjous@gmail.com>
- *
- * @class
- */
  export class Heap {
   /**
    * @param {function} compare
